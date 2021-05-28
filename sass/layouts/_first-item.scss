@@ -1,0 +1,19 @@
+.first-item {
+  display: flex;
+  width: 270px;
+}
+
+.icon-antenna {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-bg-color);
+}
+
+.icon-antenna__icon {
+  width: 70px;
+  height: 70px;
+}

@@ -1,0 +1,8 @@
+.options {
+  display: inline-flex;
+  margin-bottom: 50px;
+}
+
+.options-item:not(:last-child) {
+  margin-right: 8px;
+}

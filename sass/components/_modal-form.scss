@@ -1,0 +1,51 @@
+.modal__form-field:focus + .icon {
+  fill: var(--accent-color);
+}
+
+.modal-form__field-label {
+  position: relative;
+}
+
+.indicate {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
+.modal-form__field {
+  width: 448px;
+  height: 40px;
+  padding-left: 42px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-form__field::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form__field:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.modal-form__message {
+  height: 120px;
+  padding-left: 16px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+  resize: none;
+}
