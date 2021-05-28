@@ -3,7 +3,7 @@
 }
 
 .team {
-  display: flex;
+  // display: flex;
 }
 
 .team__item {
@@ -13,9 +13,9 @@
   background-color: #ffffff;
 }
 
-.team__item:not(:last-child) {
-  margin-right: 30px;
-}
+// .team__item:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 .card-thumb {
   margin-bottom: 30px;
