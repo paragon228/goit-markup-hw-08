@@ -1,0 +1,7 @@
+.header-item {
+  display: inline-flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 30px;
+}

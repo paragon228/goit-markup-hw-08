@@ -1,0 +1,27 @@
+.fhoto {
+  padding-top: 0;
+}
+
+.fhoto-list {
+  display: flex;
+}
+
+.fhoto-item {
+  position: relative;
+}
+
+.fhoto-list__fhoto-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.fhoto-title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
